@@ -15,8 +15,8 @@ An ERC20 Token that can be earned when playing the game from Degen studios.
 1. Clone Repository into your local terminal
 
    ```bash
-   git clone https://github.com/PhantomOz/Degen.git
-   cd Degen
+   git clone https://github.com/PhantomOz/Degens.git
+   cd Degens
    ```
 
 2. install the node libraries
