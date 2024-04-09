@@ -42,6 +42,6 @@ An ERC20 Token that can be earned when playing the game from Degen studios.
 
 ## Testnet
 
-This contract can be found on the Avalanche testnet Fuji with address [0x0917c9EEd9EF51D57AAa27357C5FeE4F3590D42e](https://testnet.snowtrace.io//address/0x0917c9EEd9EF51D57AAa27357C5FeE4F3590D42e#code).
+This contract can be found on the Avalanche testnet Fuji with address [0x5A67F42DCE66f311B869e737cc88297284b1123A](https://testnet.snowtrace.io/address/0x5A67F42DCE66f311B869e737cc88297284b1123A#code).
 
 Made with Love @PhantomOz

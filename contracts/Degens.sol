@@ -21,6 +21,14 @@ contract Degen is ERC20, Ownable {
         _burn(msg.sender, _amount);
     }
 
+    function transfer(
+        address to,
+        uint256 value
+    ) public override returns (bool) {
+        _transfer(msg.sender, to, value);
+        return true;
+    }
+
     function getStoreItems() external pure returns (string memory) {
         return
             "The following items are available for purchase:\nSelection 1. Official Degen NFT\nSelection 2. Official Degen NFT\nSelection 3. Official Degen NFT";

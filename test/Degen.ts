@@ -53,6 +53,15 @@ describe("Degen", function () {
     });
   });
 
+  describe("Transfer", function () {
+    it("Should transfer tokens from a user to another", async () => {
+      const { degen, owner, otherAccount } = await loadFixture(deployDegens);
+      await expect(
+        degen.transfer(otherAccount.address, 10000)
+      ).to.changeTokenBalance(degen, otherAccount, +10000);
+    });
+  });
+
   describe("getStoreItems", () => {
     it("Should getStoreItems", async () => {
       const { degen } = await loadFixture(deployDegens);
